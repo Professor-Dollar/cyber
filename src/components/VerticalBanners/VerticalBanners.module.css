@@ -1,0 +1,9 @@
+.verticalbanners{
+    display: flex;
+}
+@media screen and (max-width:760px) {
+    .verticalbanners{
+        display: flex;
+        overflow-y: auto;
+    }
+}

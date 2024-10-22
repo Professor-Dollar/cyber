@@ -1,0 +1,83 @@
+
+.nav{
+    display: flex;  
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background-color: white;
+    justify-content: space-between;
+    font-family: 'Sf Pro Display', sans-serif;
+    font-weight: 100;
+    padding: 16px 160px;
+    height: 88px;
+    align-items: center;
+    flex-direction: row;
+    height: 6vw;
+    width: 100%;
+}
+.navleft{
+display: flex;
+align-items: center;
+height: 100%;
+gap: 2vw;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.search{
+    display: flex;
+    font-size: 14px;
+    padding:16px;
+    align-items: center;
+    gap: 0.3vw;
+    border-radius: 5px;
+    padding: .6vw .6vw;
+    background:#F5F5F5;
+}
+.navright{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    gap: 2vw;
+}
+.links{
+    display:flex;
+    line-height: 0;
+    font-size: 16px;
+    gap: 52px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    font-size: 1.4rem;
+    font-weight: 100;
+}
+.selectedlink{
+    font-weight: 600;
+}
+.burger{
+    display: none;
+}
+/* for mobiles */
+@media screen and (max-width: 760px) {
+    .nav{
+        height: 88px;
+        width: 100%;
+        padding: 24px 16px;
+    }
+    .logo{
+        height: 32px;
+        width: 96px;
+    }
+    .links, .icons, .search{
+        display: none;
+    }
+    .burger{
+        display: block;
+        height: 40px;
+        width: 40px;
+    }
+}
