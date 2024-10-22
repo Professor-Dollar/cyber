@@ -34,7 +34,7 @@ const MiniBanners = () => {
             style={{ backgroundColor: "#353535", color: "white" }}
             className={styles.square2}
           >
-            <img src="/products/visionpro.png" alt="" />
+            <img src="/Products/visionpro.png" alt="" />
             <div className={styles.info}>
               <h1>
                 Apple Vision <span>Pro</span>
