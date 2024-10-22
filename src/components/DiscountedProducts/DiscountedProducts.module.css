@@ -25,6 +25,7 @@
 @media screen and (max-width:760px) {
   .discounted{
     padding: 56px 16px ;
+    margin-bottom: 900px;
   }
   .products{
     width: 100%;
