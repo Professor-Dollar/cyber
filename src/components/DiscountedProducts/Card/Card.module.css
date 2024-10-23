@@ -57,3 +57,13 @@
         width: 139px;
     }
 }
+@media screen and (max-width: 370px) {
+    .productimage{
+        width: 130px;
+    }
+    .card{
+        padding: 10px;
+        height: 387px;
+        width: 150px;
+    }
+}

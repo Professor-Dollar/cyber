@@ -15,7 +15,6 @@
     font-size: 18px;
     gap: 32px;
     align-items: center;
-    height: 32px;
     width: 100%;
 }
 .productsnavigation > a{
@@ -49,5 +48,10 @@
         width: 100%;
         flex-wrap: wrap;
         column-gap: 16px;
+    }
+}
+@media screen and (max-width: 370px) {
+    .products{
+        padding:-10px  22px;
     }
 }
