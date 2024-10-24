@@ -12,7 +12,7 @@ function FavoritesIcon() {
         stroke="black"
         strokeWidth="1.5"
         strokeLinecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

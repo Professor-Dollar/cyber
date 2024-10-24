@@ -10,14 +10,13 @@ import BottomBanner from "@/components/Banners/BottomBanners/Banner";
 export default function Home() {
   return (
     <>
-      <main className={styles.main}>
-        <Subnav />
+      <main className={styles.main}> 
         <Banners />
-        <Categorize/>
-        <Products/>
-        <VerticalBanners/>
-        <DiscountedProducts/>
-        <BottomBanner/>
+        <Categorize />
+        <Products />
+        <VerticalBanners />
+        <DiscountedProducts />
+        <BottomBanner />
       </main>
     </>
   );

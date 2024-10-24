@@ -2,6 +2,7 @@
 .banner{
     font-family: 'Inter';
     position: relative;
+    width: 340px;
     min-height: 100%;
     padding: 0 32px 56px 32px;
 }
@@ -32,27 +33,16 @@
 }
 @media screen and (max-width:760px) {
     .banner{
-        width: 375px;
+        min-width: 100%;
+        padding: 56px 32px 66px 32px;
+        scroll-snap-align: start;
     }
     .info{
+        gap: 12px;
         text-align: center;
     }
     .banner > button {
         margin: 16px auto;
     }
-    .indicator{
-        display: flex;
-        justify-content: space-evenly;
-        max-width: 56px;
-        margin: 0 auto;
-    }
-    .indicator > span > div {
-        background-color: black;
-    }
-    .dot{
-        width: 8px;
-        height: 8px;
-        background-color: #909090;
-        border-radius: 50%;
-    }
+    
 }

@@ -1,18 +1,36 @@
-import Card from "../DiscountedProducts/Card/Card";
-import products from './ProductsData';
+"use client";
+import Card from "./Cards/Cards";
 import styles from "./Products.module.css";
+import { useState } from "react";
 function Products() {
+  const [tab, setTab] = useState("newarrival");
   return (
     <div className={styles.products}>
       <div className={styles.productsnavigation}>
-        <a href="" className={styles.selected}>
+        <a
+          href="#"
+          className={tab === "newarrival" ? styles.selected : ""}
+          onClick={() => setTab("newarrival")}
+        >
           New Arrival
         </a>
-        <a href="">Bestseller</a>
-        <a href="">Featured Products</a>
+        <a
+          href="#"
+          className={tab === "bestSeller" ? styles.selected : ""}
+          onClick={() => setTab("bestSeller")}
+        >
+          Bestseller
+        </a>
+        <a
+          href="#"
+          className={tab === "featuredProducts" ? styles.selected : ""}
+          onClick={() => setTab("featuredProducts")}
+        >
+          Featured Products
+        </a>
       </div>
       <div className={styles.productscards}>
-        <Card data={products} />
+        <Card tab={tab} />
       </div>
     </div>
   );
