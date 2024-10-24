@@ -10,7 +10,7 @@ const products = {
   
     {
       liked: true,
-      imagesource: "/Products/airpodsMax.png",
+      imagesource: "/Products/airpodsmax.png",
       producttitle: "Apple AirPods Max",
       subtitle: "Wireless Over-Ear Headphones",
       price: 549,
@@ -52,7 +52,7 @@ const products = {
     },
     {
       liked: false,
-      imagesource: "/Products/IPhone14Pro.png",
+      imagesource: "/Products/Iphone14pro.png",
       producttitle: "Apple iPhone 14 Pro Max",
       subtitle: "128GB Deep Purple",
       price: 900,
