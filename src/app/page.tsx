@@ -1,4 +1,3 @@
-import Subnav from "@/components/Header/Subnav/Subnav";
 import styles from "./page.module.css";
 import Banners from "@/components/Banners/Banner";
 import Categorize from "@/components/Categorize-Products/Categorize";
