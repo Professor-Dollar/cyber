@@ -2,7 +2,7 @@ const products = {
   newarrival : [
     {
       liked: true,
-      imagesource: "/Products/IPhone14Pro.png",
+      imagesource: "/Products/Iphone14pro.png",
       producttitle: "Apple iPhone 14 Pro Max",
       subtitle: "128GB Deep Purple ",
       price: 900,
@@ -10,7 +10,7 @@ const products = {
   
     {
       liked: true,
-      imagesource: "/Products/AirpodsMax.png",
+      imagesource: "/Products/airpodsMax.png",
       producttitle: "Apple AirPods Max",
       subtitle: "Wireless Over-Ear Headphones",
       price: 549,
@@ -61,7 +61,7 @@ const products = {
   bestSeller : [
     {
       liked: true,
-      imagesource: "/Products/galaxywatch.png",
+      imagesource: "/Products/GalaxyWatch.png",
       producttitle: "Samsung Galaxy Watch 6",
       subtitle: "64GB - Deep Green ",
       price: 900,
@@ -108,7 +108,7 @@ const products = {
   
     {
       liked: true,
-      imagesource: "/Products/IPhone14Pro.png",
+      imagesource: "/Products/Iphone14pro.png",
       producttitle: "I Phone 14 Pro",
       subtitle: "Deep Purple",
       price: 549,
